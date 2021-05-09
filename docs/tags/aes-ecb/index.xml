@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>AES-ECB - Tag - LoveIt</title>
+        <link>https://example.com/tags/aes-ecb/</link>
+        <description>AES-ECB - Tag - LoveIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>vishveshsrao@gmail.com (Vishvesh)</managingEditor>
+            <webMaster>vishveshsrao@gmail.com (Vishvesh)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 09 May 2021 17:55:28 &#43;0800</lastBuildDate><atom:link href="https://example.com/tags/aes-ecb/" rel="self" type="application/rss+xml" /><item>
+    <title>Locked Dungeons-1</title>
+    <link>https://example.com/locked-dungeons-1/</link>
+    <pubDate>Sun, 09 May 2021 17:55:28 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/locked-dungeons-1/</guid>
+    <description><![CDATA[Locked Dungeons1 Overview On the first glance itself you briefly get an idea that encryption program is an implementatioin of a modified AES-ECB encryption oracle along with the standard PKCS#11 padding.
+Declared inside the class AESCipher we can observe the two functions which are the core part of the challenge i.e the mod_encrypt and the mod_pad functions. furthermore we observe that the user can input some values.
+Also notice that after the flag file is read certain conditions are being checked:]]></description>
+</item></channel>
+</rss>

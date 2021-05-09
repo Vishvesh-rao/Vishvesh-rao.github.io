@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>eqn solving - Tag - LoveIt</title>
+        <link>https://example.com/tags/eqn-solving/</link>
+        <description>eqn solving - Tag - LoveIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>vishveshsrao@gmail.com (Vishvesh)</managingEditor>
+            <webMaster>vishveshsrao@gmail.com (Vishvesh)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 01 May 2021 17:55:28 &#43;0800</lastBuildDate><atom:link href="https://example.com/tags/eqn-solving/" rel="self" type="application/rss+xml" /><item>
+    <title>My Simple Cipher - TWCTF</title>
+    <link>https://example.com/my-simple_cipher/</link>
+    <pubDate>Sat, 01 May 2021 17:55:28 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/my-simple_cipher/</guid>
+    <description><![CDATA[My Simple Cipher Overview Of The Challenge The challenge involved an encryption program which performed the following encryption to genereate the cipher text:
+1 2  for i in range(0, len(message)): encrypted += chr((ord(message[i]) ^ ord(key[i % len(key)]) ^ ord(encrypted[i]))%128)   encrypted is the ciphertext and a random ascii character was added to it before the encryption loop.
+The goal was to find the flag from a message which consisted essentially three parts]]></description>
+</item></channel>
+</rss>

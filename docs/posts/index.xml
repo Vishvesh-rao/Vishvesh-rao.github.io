@@ -1,0 +1,34 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - LoveIt</title>
+        <link>https://example.com/posts/</link>
+        <description>All Posts | LoveIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>vishveshsrao@gmail.com (Vishvesh)</managingEditor>
+            <webMaster>vishveshsrao@gmail.com (Vishvesh)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 09 May 2021 17:55:28 &#43;0800</lastBuildDate><atom:link href="https://example.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>My Simple Cipher - TWCTF</title>
+    <link>https://example.com/my-simple_cipher/</link>
+    <pubDate>Sat, 01 May 2021 17:55:28 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/my-simple_cipher/</guid>
+    <description><![CDATA[My Simple Cipher Overview Of The Challenge The challenge involved an encryption program which performed the following encryption to genereate the cipher text:
+1 2  for i in range(0, len(message)): encrypted += chr((ord(message[i]) ^ ord(key[i % len(key)]) ^ ord(encrypted[i]))%128)   encrypted is the ciphertext and a random ascii character was added to it before the encryption loop.
+The goal was to find the flag from a message which consisted essentially three parts]]></description>
+</item><item>
+    <title>Locked Dungeons-1</title>
+    <link>https://example.com/locked-dungeons-1/</link>
+    <pubDate>Sun, 09 May 2021 17:55:28 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/locked-dungeons-1/</guid>
+    <description><![CDATA[Locked Dungeons1 Overview On the first glance itself you briefly get an idea that encryption program is an implementatioin of a modified AES-ECB encryption oracle along with the standard PKCS#11 padding.
+Declared inside the class AESCipher we can observe the two functions which are the core part of the challenge i.e the mod_encrypt and the mod_pad functions. furthermore we observe that the user can input some values.
+Also notice that after the flag file is read certain conditions are being checked:]]></description>
+</item><item>
+    <title>Master Challenge - De1 CTF</title>
+    <link>https://example.com/master-challenge-rsa/</link>
+    <pubDate>Sun, 09 May 2021 17:55:28 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/master-challenge-rsa/</guid>
+    <description><![CDATA[Master Challenge Overview This was one of the most interesting RSA challenges that I have solve till date. There are numerous points about this challenge that makes it so intriguing and unusual one of them being the hint (I will come to that later :p)
+One thing you would have noticed is how it seems that most of variables which have been used in the challenge script are not even acessible to the solver.]]></description>
+</item></channel>
+</rss>
