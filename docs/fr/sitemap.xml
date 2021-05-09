@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://example.com/fr/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://example.com/fr/about/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://example.com/about/"
@@ -15,7 +15,7 @@
                     hreflang="fr"
                     href="https://example.com/fr/about/"
                     /></url><url>
-            <loc>https://example.com/fr/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://example.com/fr/categories/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://example.com/categories/"
@@ -28,7 +28,7 @@
                     hreflang="fr"
                     href="https://example.com/fr/categories/"
                     /></url><url>
-            <loc>https://example.com/fr/tags/content/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://example.com/fr/tags/content/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://example.com/zh-cn/tags/content/"
@@ -37,7 +37,7 @@
                     hreflang="fr"
                     href="https://example.com/fr/tags/content/"
                     /></url><url>
-            <loc>https://example.com/fr/categories/documentation/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://example.com/fr/categories/documentation/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://example.com/categories/documentation/"
@@ -50,7 +50,7 @@
                     hreflang="fr"
                     href="https://example.com/fr/categories/documentation/"
                     /></url><url>
-            <loc>https://example.com/fr/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://example.com/fr/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://example.com/"
@@ -63,7 +63,7 @@
                     hreflang="fr"
                     href="https://example.com/fr/"
                     /></url><url>
-            <loc>https://example.com/fr/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://example.com/fr/tags/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://example.com/tags/"
