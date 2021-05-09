@@ -9,7 +9,7 @@ authorLink: "Vishvesh-rao.github.io"
 description: "Writeup for Master Challenge De1 CTF"
 resources:
 - name: "featured-image"
-  src: "bg4.gif"
+  src: "featured-image.jpeg"
 
 tags: ["Crypto","RSA"]
 categories: ["CTF-Wrtieups"]

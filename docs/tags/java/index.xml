@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Java - Tag - Str1d3r</title>
+        <link>https://example.com/tags/java/</link>
+        <description>Java - Tag - Str1d3r</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>vishveshsrao@gmail.com (Vishvesh)</managingEditor>
+            <webMaster>vishveshsrao@gmail.com (Vishvesh)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 08 Oct 2020 17:55:28 &#43;0800</lastBuildDate><atom:link href="https://example.com/tags/java/" rel="self" type="application/rss+xml" /><item>
+    <title>Java App</title>
+    <link>https://example.com/projects/java-app/</link>
+    <pubDate>Thu, 08 Oct 2020 17:55:28 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://example.com/projects/java-app/</guid>
+    <description><![CDATA[E-Hub-Software-company-database An implemetation of a software company database and with added functionalities. Backend implemented in sql and frontend created with java swing using JDBC to connect backend to frontend
+link to Project Documentation
+Usage Instructions [for linux machines] Clone the repository copy the src/ folder to your local machine and add the sql dump to your databse
+Steps to recover db from sql dump To recover db from a MySQL dump, enter:]]></description>
+</item></channel>
+</rss>

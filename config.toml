@@ -13,7 +13,7 @@ themesDir = "../.."
 publishDir = "docs"
 # website title
 # 网站标题
-title = "LoveIt"
+title = "Str1d3r"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -70,11 +70,11 @@ enableEmoji = true
         title = ""
         weight = 3
       [[languages.en.menu.main]]
-        identifier = "documentation"
+        identifier = "projects"
         pre = ""
         post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
+        name = "Projects"
+        url = "/projects/"
         title = ""
         weight = 4
       [[languages.en.menu.main]]
@@ -95,13 +95,13 @@ enableEmoji = true
         weight = 6
     [languages.en.params]
       # site description
-      description = "About LoveIt Theme"
+      description = "About Me"
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "LoveIt"
+        title = "ME"
         # whether to omit favicon resource links
         noFavicon = false
         # modern SVG favicon to use in place of older style .png and .ico files
@@ -143,9 +143,9 @@ enableEmoji = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
           # URL of avatar shown in home page
-          avatarURL = "/images/avatar.jpg"
+          avatarURL = "images/avatar.jpg"
           # title shown in home page (HTML format is supported)
-          title = ""
+          title = "Blog@Str1d3r"
           # subtitle shown in home page
           subtitle = "Vishvesh, a.k.a str1der | crypto enthusiast | team bi0s"
           # whether to use typeit animation for subtitle
@@ -158,11 +158,11 @@ enableEmoji = true
         [languages.en.params.home.posts]
           enable = true
           # special amount of posts in each home posts page
-          paginate = 6
+          paginate = 5
       # Social config in home page
       [languages.en.params.social]
-        GitHub = "https://github.com/Vishvesh-rao/"
-        Linkedin = "https://www.linkedin.com/in/vishvesh-rao-847368191"
+        GitHub = "Vishvesh-rao/"
+        Linkedin = "vishvesh-rao-847368191"
         Twitter = "https://twitter.com/The_Str1d3r"
         Instagram = ""
         Facebook = ""
@@ -176,7 +176,7 @@ enableEmoji = true
         Quora = ""
         Keybase = ""
         Pinterest = ""
-        Reddit = "u/Th3_str1d3r"
+        Reddit = "Th3_str1d3r"
         Codepen = ""
         FreeCodeCamp = ""
         Bitbucket = ""
@@ -224,9 +224,9 @@ enableEmoji = true
         Bilibili = ""
         Email = "vishveshsrao@gmail.com"
         RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
+        #[languages.en.params.social.Mastodon]
+         # id = "@xxxx"
+          #prefix = "https://mastodon.technology/"
 
   [languages.zh-cn]
     weight = 2
@@ -662,7 +662,7 @@ enableEmoji = true
       name = "Str1d3r"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
+      pre = "<i class='far fa-flag fa-fw'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""

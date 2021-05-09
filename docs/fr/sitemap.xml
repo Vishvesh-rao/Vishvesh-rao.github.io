@@ -15,7 +15,7 @@
                     hreflang="fr"
                     href="https://example.com/fr/about/"
                     /></url><url>
-            <loc>https://example.com/fr/categories/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://example.com/fr/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://example.com/categories/"
@@ -36,19 +36,6 @@
                     rel="alternate"
                     hreflang="fr"
                     href="https://example.com/fr/tags/content/"
-                    /></url><url>
-            <loc>https://example.com/fr/categories/documentation/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/categories/documentation/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://example.com/zh-cn/categories/documentation/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="https://example.com/fr/categories/documentation/"
                     /></url><url>
             <loc>https://example.com/fr/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"

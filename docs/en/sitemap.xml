@@ -2,6 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://example.com/projects/java-app/</loc><lastmod>2019-10-09T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/my-simple_cipher/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://example.com/locked-dungeons-1/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://example.com/master-challenge-rsa/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
@@ -21,6 +22,8 @@
                     /></url><url>
             <loc>https://example.com/tags/crypto/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://example.com/categories/ctf-wrtieups/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://example.com/posts/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://example.com/tags/rsa/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://example.com/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -34,8 +37,6 @@
                     hreflang="en"
                     href="https://example.com/"
                     /></url><url>
-            <loc>https://example.com/posts/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://example.com/tags/rsa/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://example.com/tags/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -51,6 +52,8 @@
                     /></url><url>
             <loc>https://example.com/tags/eqn-solving/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://example.com/tags/mod/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://example.com/tags/java/</loc><lastmod>2019-10-09T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://example.com/projects/</loc><lastmod>2019-10-09T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://example.com/about/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -63,17 +66,4 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://example.com/about/"
-                    /></url><url>
-            <loc>https://example.com/categories/documentation/</loc><lastmod>2021-05-09T23:53:41&#43;05:30</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://example.com/zh-cn/categories/documentation/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/categories/documentation/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://example.com/categories/documentation/"
                     /></url></urlset>

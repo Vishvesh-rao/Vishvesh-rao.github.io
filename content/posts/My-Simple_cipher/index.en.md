@@ -9,9 +9,9 @@ authorLink: "Vishvesh-rao.github.io"
 description: "Writeup for My Simple cipher from TWCTF"
 resources:
 - name: "featured-image"
-  src: "featured-image.jpg"
+  src: "featured-image.jpeg"
 
-tags: ["mod","eqn solving"]
+tags: ["Crypto","mod","eqn solving"]
 categories: ["CTF-Wrtieups"]
 
 lightgallery: true
