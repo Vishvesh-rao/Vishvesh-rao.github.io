@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>LoveIt</title>
+        <title>Str1d3r</title>
         <link>https://example.com/</link>
-        <description>About LoveIt Theme</description>
+        <description>About Me</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>vishveshsrao@gmail.com (Vishvesh)</managingEditor>
             <webMaster>vishveshsrao@gmail.com (Vishvesh)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 09 May 2021 17:55:28 &#43;0800</lastBuildDate>
             <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +16,7 @@
 1 2  for i in range(0, len(message)): encrypted += chr((ord(message[i]) ^ ord(key[i % len(key)]) ^ ord(encrypted[i]))%128)   encrypted is the ciphertext and a random ascii character was added to it before the encryption loop.
 The goal was to find the flag from a message which consisted essentially three parts]]></description>
 </item><item>
-    <title>Locked Dungeons-1</title>
+    <title>Locked Dungeons - SWAMP CTF</title>
     <link>https://example.com/locked-dungeons-1/</link>
     <pubDate>Sun, 09 May 2021 17:55:28 &#43;0800</pubDate>
     <author>Author</author>
