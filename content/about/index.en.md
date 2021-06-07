@@ -16,10 +16,19 @@ math:
 [![me](me.png)](https://github.com/Vishvesh-rao)
 
 # About     
+\______________________________________________________
+
+<br/>
 
 I am currently persuing my second year under-graduate studies in B-tech CSE. I am very much passionate about cyber security and especially focus in the field of cryptogrpahy and Reverse engineering. I actively try to improve my skills in security by playing and learning from CTF's as a part of Team bi0s [ ***academic ethical hacking team of Amrita University*** ].
 
+<br/>
+
 # Interests
+\__________________________________________________________
+
+<br/>
+
 I am familiar with the concepts and attacks related to various cryptographic systems as RSA, Block Ciphers, DLP, Elgamel, ECC, PRNGS's etc. I have lots more to cover in terms of knowledge in this field and constantly learn practice and implement new concepts. 
 
 <br />

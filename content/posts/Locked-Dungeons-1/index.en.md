@@ -1,5 +1,5 @@
 ---
-weight: 10
+weight: 3
 title: "Locked Dungeons - SWAMP CTF"
 date: 2021-05-09T17:55:28+08:00
 lastmod: 2019-10-09T17:55:28+08:00

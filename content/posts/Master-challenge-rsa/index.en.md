@@ -1,5 +1,5 @@
 ---
-weight: 10
+weight: 2
 title: "Master Challenge - De1 CTF"
 date: 2021-05-09T17:55:28+08:00
 lastmod: 2019-10-09T17:55:28+08:00
