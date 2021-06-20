@@ -13,7 +13,7 @@ themesDir = "../.."
 publishDir = "docs"
 # website title
 # 网站标题
-title = "Str1d3r"
+title = "LoveIt"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -45,54 +45,46 @@ enableEmoji = true
       [[languages.en.menu.main]]
         identifier = "posts"
         # you can add extra information before the name (HTML format is supported), such as icons
-        pre = "<i class='fas fa-pen-square fa-fw'></i>"
+        pre = ""
         # you can add extra information after the name (HTML format is supported), such as icons
         post = ""
         name = "Posts"
         url = "/posts/"
         # title will be shown when you hover on this menu link.
         title = ""
-        weight = -5
+        weight = 1
       [[languages.en.menu.main]]
         identifier = "tags"
-        pre = """<i class="fa fa-tags" aria-hidden="true"></i>"""
-	post = ""
+        pre = ""
+        post = ""
         name = "Tags"
         url = "/tags/"
         title = ""
         weight = 2
       [[languages.en.menu.main]]
         identifier = "categories"
-        pre = "<i class='fas fa-folder fa-fw'></i>"
+        pre = ""
         post = ""
         name = "Categories"
         url = "/categories/"
         title = ""
         weight = 3
       [[languages.en.menu.main]]
-        identifier = "projects"
-        pre = "<i class='fas fa-cubes fa-fw'></i>"
+        identifier = "documentation"
+        pre = ""
         post = ""
-        name = "Projects"
-        url = "/projects/"
+        name = "Docs"
+        url = "/categories/documentation/"
         title = ""
         weight = 4
       [[languages.en.menu.main]]
-        identifier = "presentations"
-        pre = """<i class="fa fa-play" aria-hidden="true"></i>"""
-        post = ""
-        name = "Presentations"
-        url = "/presentations/"
-        title = ""
-        weight = 5
-      [[languages.en.menu.main]]
         identifier = "about"
-        pre = """<i class="fa fa-user-circle" aria-hidden="true"></i>"""
+        pre = ""
         post = ""
         name = "About"
         url = "/about/"
         title = ""
-        weight = 6
+        weight = 5
       [[languages.en.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
@@ -100,27 +92,47 @@ enableEmoji = true
         name = ""
         url = "https://github.com/Vishvesh-rao"
         title = "GitHub"
-        weight = 7
+        weight = 6
     [languages.en.params]
       # site description
-      description = "About Me"
+      description = "About LoveIt Theme"
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "ME"
+        title = "LoveIt"
         # whether to omit favicon resource links
         noFavicon = false
         # modern SVG favicon to use in place of older style .png and .ico files
-        svgFavicon = "images/avatar.jpg"
+        svgFavicon = ""
         # Android browser theme color
         themeColor = "#ffffff"
         # Safari mask icon color
         iconColor = "#5bbad5"
         # Windows v8-10 tile color
         tileColor = "#da532c"
-      
+      # Search config
+      [languages.en.params.search]
+        enable = true
+        # type of search engine ("lunr", "algolia")
+        type = "algolia"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+        [languages.en.params.search.algolia]
+          index = "index.en"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
       # Home page config
       [languages.en.params.home]
         # amount of RSS pages
@@ -131,13 +143,11 @@ enableEmoji = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
           # URL of avatar shown in home page
-          avatarURL = "images/avatar.jpg"
+          avatarURL = "/images/avatar.jpg"
           # title shown in home page (HTML format is supported)
-          title = "Blog@Str1d3r"
+          title = ""
           # subtitle shown in home page
-          subtitle = """~Vishvesh, 20.y.o 
-	~crypto enthusiast 
-	~@team bi0s"""
+          subtitle = "Vishvesh, a.k.a str1der | crypto enthusiast | team bi0s"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -148,11 +158,11 @@ enableEmoji = true
         [languages.en.params.home.posts]
           enable = true
           # special amount of posts in each home posts page
-          paginate = 5
+          paginate = 6
       # Social config in home page
       [languages.en.params.social]
-        GitHub = "Vishvesh-rao/"
-        Linkedin = "vishvesh-rao-847368191"
+        GitHub = "https://github.com/Vishvesh-rao/"
+        Linkedin = "https://www.linkedin.com/in/vishvesh-rao-847368191"
         Twitter = "https://twitter.com/The_Str1d3r"
         Instagram = ""
         Facebook = ""
@@ -166,7 +176,7 @@ enableEmoji = true
         Quora = ""
         Keybase = ""
         Pinterest = ""
-        Reddit = "Th3_str1d3r"
+        Reddit = "u/Th3_str1d3r"
         Codepen = ""
         FreeCodeCamp = ""
         Bitbucket = ""
@@ -214,9 +224,9 @@ enableEmoji = true
         Bilibili = ""
         Email = "vishveshsrao@gmail.com"
         RSS = true
-        #[languages.en.params.social.Mastodon]
-         # id = "@xxxx"
-          #prefix = "https://mastodon.technology/"
+        [languages.en.params.social.Mastodon]
+          id = "@xxxx"
+          prefix = "https://mastodon.technology/"
 
   [languages.zh-cn]
     weight = 2
@@ -649,17 +659,17 @@ enableEmoji = true
       logo = ""
       # title name
       # 标题名称
-      name = "/Str1d3r~"
+      name = "Str1d3r"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      #pre = "<i class='far fa-flag fa-fw'></i>"
+      pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
-      post = """<i class="fa fa-usd" aria-hidden="true"></i>"""
+      post = ""
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
       typeit = false
-  
+
   # Footer config
   # 页面底部信息配置
   [params.footer]
@@ -753,7 +763,7 @@ enableEmoji = true
       keepStatic = false
       # whether to make the table of the contents in the sidebar automatically collapsed
       # 是否使侧边目录自动折叠展开
-      auto = false
+      auto = true
     # Code config
     # 代码配置
     [params.page.code]
@@ -808,7 +818,7 @@ enableEmoji = true
     # Social share links in post page
     # 文章页面的分享信息设置
     [params.page.share]
-      enable = false
+      enable = true
       Twitter = true
       Facebook = false
       Linkedin = false
@@ -820,13 +830,13 @@ enableEmoji = true
       VK = false
       Buffer = false
       Xing = false
-      Line = false
+      Line = true
       Instapaper = false
       Pocket = false
       Digg = false
       Stumbleupon = false
       Flipboard = false
-      Weibo = false
+      Weibo = true
       Renren = false
       Myspace = false
       Blogger = false

@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 10
 title: "Master Challenge - De1 CTF"
 date: 2021-05-09T17:55:28+08:00
 lastmod: 2019-10-09T17:55:28+08:00
@@ -9,7 +9,7 @@ authorLink: "Vishvesh-rao.github.io"
 description: "Writeup for Master Challenge De1 CTF"
 resources:
 - name: "featured-image"
-  src: "featured-image.jpeg"
+  src: "bg4.gif"
 
 tags: ["Crypto","RSA"]
 categories: ["CTF-Wrtieups"]
