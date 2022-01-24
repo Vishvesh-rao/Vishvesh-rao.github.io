@@ -43,10 +43,6 @@ url : demo.hedgedoc.org/gK9iEJ0tQka_BrOt1IGSyA?both
 </head>
 </html>
 
-
-
-# SECURITY OF EC-SCHNORR SIGNATURE ALGORITHM
-
 Recently Elliot ( a.k.a [@robot__dreams](https://twitter.com/robot__dreams) ) published some crypto/bitcoin related challenges on the EC-schnorr algorithm and key sharing algorithm used to secure bitcoin wallets. 
 
 This blog post is my detailed explanation of my approach in solving all the challenges.
