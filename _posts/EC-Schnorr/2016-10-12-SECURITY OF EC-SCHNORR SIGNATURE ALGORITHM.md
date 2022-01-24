@@ -88,9 +88,9 @@ $$e = Hash(r||P||m) \quad :aggregated hash \quad \; (integer)$$
 > $Here \; r,P,m \;\; are \; all \; represented \; in \;  bytes$
 > $And \; r \; is \; the \; x \; cordinate \; of \; point \; R$
 
-$s = z + Hash(r||P||m)*k \quad :signature \quad (integer)$
+$$s = z + Hash(r||P||m)*k \quad :signature \quad (integer)$$
 
-$(r, s) \qquad\quad\;\;\;\; :Signature \quad\qquad\qquad\;\;  (integer, integer)$
+$$(r, s) \qquad\quad\;\;\;\; :Signature \quad\qquad\qquad\;\;  (integer, integer)$$
 
 <br>
 
@@ -122,10 +122,10 @@ Now that we know the basics of the signing/verification process we can move on t
 
 ## Challenges
 
-1. **[EC-Schnorr Nonce Reuse](https://demo.hedgedoc.org/#EC-Schnorr-Nonce-Reuse)**
-2. **[Linearly Related Nonces](https://demo.hedgedoc.org/#Linearly-Related-Nonces)**
-3. **[Multisignature Forgery](https://demo.hedgedoc.org/#Multisignature-Forgery)**
-4. **[Wallet Key Reconstruction](https://demo.hedgedoc.org/#Wallet-Key-Reconstruction)**
+1. **[EC-Schnorr Nonce Reuse](https://vishvesh-rao.github.io/posts/SECURITY-OF-EC-SCHNORR-SIGNATURE-ALGORITHM/#ec-schnorr-nonce-reuse)**
+2. **[Linearly Related Nonces](https://vishvesh-rao.github.io/posts/SECURITY-OF-EC-SCHNORR-SIGNATURE-ALGORITHM/#linearly-related-nonces)**
+3. **[Multisignature Forgery](https://vishvesh-rao.github.io/posts/SECURITY-OF-EC-SCHNORR-SIGNATURE-ALGORITHM/#multisignature-forgery)**
+4. **[Wallet Key Reconstruction](https://vishvesh-rao.github.io/posts/SECURITY-OF-EC-SCHNORR-SIGNATURE-ALGORITHM/#wallet-key-reconstruction)**
 
 ## EC-Schnorr Nonce Reuse
 
@@ -402,7 +402,7 @@ So before we actually dive into the challenge lets do a quick brief on multisign
 Following are the steps to generate a two party multisignature: 
 <br>
 
-> **All the terms used are as explained in [this](https://demo.hedgedoc.org/#Primer-on-EC-Schnorr) section**
+> **All the terms used are as explained in [this](https://vishvesh-rao.github.io/posts/SECURITY-OF-EC-SCHNORR-SIGNATURE-ALGORITHM/#primer-on-ec-schnorr) section**
 
 <br>
 
