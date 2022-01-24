@@ -13,7 +13,7 @@ lightgallery: true
 <br />
 
 [![ARTIFICIAL INTELLIGENCE](https://codimd.s3.shivering-isles.com/demo/uploads/02a6da1fb9d19367162f42398.png)](https://drive.google.com/file/d/1Tj-3F9Cnzt0w4V2EbrzPLBrr3RP7imLV/view?usp=sharing)
-_[drive-link]((https://drive.google.com/file/d/1Tj-3F9Cnzt0w4V2EbrzPLBrr3RP7imLV/view?usp=sharing))_
+_[drive-link](https://drive.google.com/file/d/1Tj-3F9Cnzt0w4V2EbrzPLBrr3RP7imLV/view?usp=sharing)_
 
 <br /><br />
 

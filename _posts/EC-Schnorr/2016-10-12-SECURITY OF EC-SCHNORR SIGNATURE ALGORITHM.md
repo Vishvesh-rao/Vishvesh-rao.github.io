@@ -72,18 +72,24 @@ Following is the signing /verification method as used in the algorithm
 ### Signing
 
 $$m  \qquad\quad\quad\; :Message \qquad\qquad\qquad\;\;\; (byte \; array)$$
+
 $$k \qquad\qquad\;\;\; :Private \; Key \quad\quad\quad\quad\quad  (integer)$$
+
 $$G \qquad\qquad\;\; :Generator \; Point \quad\quad\;\;\;\;\; (curve point)$$
+
 $$P = k*G \quad :Public \; Key \quad\qquad\quad\;\;\;\;\;\;\; (curve point)$$
 
 $$z \quad\quad\qquad\;\;\;\; :Private \; nonce \qquad\qquad\; (integer)$$
+
 $$R = z*G  \quad\; :Public \;nonce \qquad\qquad\;\;\; (curve point)$$
+
 $$e = Hash(r||P||m) \quad :aggregated hash \quad \; (integer)$$
 
 > $Here \; r,P,m \;\; are \; all \; represented \; in \;  bytes$
 > $And \; r \; is \; the \; x \; cordinate \; of \; point \; R$
 
 $s = z + Hash(r||P||m)*k \quad :signature \quad (integer)$
+
 $(r, s) \qquad\quad\;\;\;\; :Signature \quad\qquad\qquad\;\;  (integer, integer)$
 
 <br>
@@ -93,12 +99,15 @@ $(r, s) \qquad\quad\;\;\;\; :Signature \quad\qquad\qquad\;\;  (integer, integer)
 **Public Values**
 
 $$(r, s) \qquad\quad\;\;\;\; :Signature$$
+
 $$P \quad\qquad\qquad\; :Public \; Key$$
+
 $$m \quad\qquad\qquad :Message$$
 
 **Calculated Values**
 
 $$R \quad\qquad\qquad\; :Public \; nonce \quad (calculated \; from \; r)$$
+
 $$e \quad\qquad\qquad\;\; :Hash(r||P||m)$$
 
 **Verifying**
