@@ -630,7 +630,7 @@ Since in ECC there is no negetive as all values are in a fine field negetive poi
 
 ### MITIGATION
 
-So to avoid this attack we would need to verify each persons public key with a messaged signed by the private key. But this would require each member of the multi-sig to do this thereby nullifying the scaling and efficiency of schnorr multisig scheme.
+So to avoid this attack we would need to verify each persons public key with a message signed by the private key, But this would require each member of the multi-sig to do this thereby nullifying the scaling and efficiency of schnorr multisig scheme.
 
 To solve this a new scheme was developed  called the **Bellare-Neven**
 #### Bellare-Neven Scheme
