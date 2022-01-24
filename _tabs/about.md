@@ -1,6 +1,6 @@
 ---
 title: About
-icon: fas fa-info-circle
+icon: fas fa-user-circle
 order: 2
 resources:
 - name: "ME"
