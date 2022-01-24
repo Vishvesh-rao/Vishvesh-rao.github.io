@@ -1,6 +1,6 @@
 ---
 title: Resume
-icon: fas fa-stream
+icon: fas fa-folder fa-fw
 order: 8
 url: https://vishvesh-rao.github.io/resume/
 ---
