@@ -1,5 +1,5 @@
 ---
-icon: fas fa-info-circle
+icon: fas fa-play
 order: 4
 title: TALKS/PRESENTATIONS
 toc: true
