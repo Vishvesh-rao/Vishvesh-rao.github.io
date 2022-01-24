@@ -106,9 +106,9 @@ $$m \quad\qquad\qquad :Message$$
 
 **Calculated Values**
 
-$$R \quad\qquad\qquad\; :Public \; nonce \quad (calculated \; from \; r)$$
+$$R \quad\qquad :Public \; nonce \quad (calculated \; from \; r)$$
 
-$$e \quad\qquad\qquad\;\; :Hash(r||P||m)$$
+$$e \quad\qquad\ :Hash(r||P||m)$$
 
 **Verifying**
 
@@ -217,7 +217,7 @@ $$k \equiv (s_1 - s_2)*(e_1-e_2)^{-1} \bmod n \tag{4}$$
 All the values in the RHS of (4) are known to us thus we can easily get the Private Key $k$
 
 ### IMPLEMENTATION
-```python=
+```python
 from Crypto.Util.number import long_to_bytes, bytes_to_long, inverse
 import hashlib
 
