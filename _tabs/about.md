@@ -14,6 +14,8 @@ math:
 
 I am currently persuing my third year under-graduate studies in B-tech CSE. I am very much passionate about cyber security and especially focus in the field of cryptogrpahy and Reverse engineering. I actively try to improve my skills in security by playing and learning from CTF's as a part of Team bi0s [ ***academic ethical hacking team of Amrita University*** ].
 
+[resume link](https://vishvesh-rao.github.io/resume/)
+
 <br/>
 
 # Interests
