@@ -81,8 +81,12 @@ $$R = z*G  \quad\; :Public \;nonce \qquad\qquad\;\;\; (curve point)$$
 
 $$e = Hash(r||P||m) \quad :aggregated hash \quad \; (integer)$$
 
+<br>
+
 > $Here \; r,P,m \;\; are \; all \; represented \; in \;  bytes$
 > $And \; r \; is \; the \; x \; cordinate \; of \; point \; R$
+
+<br>
 
 $$s = z + Hash(r||P||m)*k \quad :signature \quad (integer)$$
 
