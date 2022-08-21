@@ -49,7 +49,7 @@ social:
     # The first element serves as the copyright owner's link
     - https://www.linkedin.com/in/vishvesh-rao-847368191
     - https://twitter.com/The_Str1d3r      # change to your twitter homepage
-    - https://github.com/Vishvesh-rao       # change to your github homepage
+    - https://github.com/Vishvesh-rao  
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
 
@@ -76,7 +76,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [dark]
+theme_mode:   # [dark,light]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url

@@ -43,10 +43,6 @@ url : demo.hedgedoc.org/gK9iEJ0tQka_BrOt1IGSyA?both
 </head>
 </html>
 
-
-
-# SECURITY OF EC-SCHNORR SIGNATURE ALGORITHM
-
 Recently Elliot ( a.k.a [@robot__dreams](https://twitter.com/robot__dreams) ) published some crypto/bitcoin related challenges on the EC-schnorr algorithm and key sharing algorithm used to secure bitcoin wallets. 
 
 This blog post is my detailed explanation of my approach in solving all the challenges.
@@ -85,12 +81,16 @@ $$R = z*G  \quad\; :Public \;nonce \qquad\qquad\;\;\; (curve point)$$
 
 $$e = Hash(r||P||m) \quad :aggregated hash \quad \; (integer)$$
 
+<br>
+
 > $Here \; r,P,m \;\; are \; all \; represented \; in \;  bytes$
 > $And \; r \; is \; the \; x \; cordinate \; of \; point \; R$
 
-$s = z + Hash(r||P||m)*k \quad :signature \quad (integer)$
+<br>
 
-$(r, s) \qquad\quad\;\;\;\; :Signature \quad\qquad\qquad\;\;  (integer, integer)$
+$$s = z + Hash(r||P||m)*k \quad :signature \quad (integer)$$
+
+$$(r, s) \qquad\quad\;\;\;\; :Signature \quad\qquad\qquad\;\;  (integer, integer)$$
 
 <br>
 
@@ -106,9 +106,9 @@ $$m \quad\qquad\qquad :Message$$
 
 **Calculated Values**
 
-$$R \quad\qquad\qquad\; :Public \; nonce \quad (calculated \; from \; r)$$
+$$R \quad\qquad :Public \; nonce \quad (calculated \; from \; r)$$
 
-$$e \quad\qquad\qquad\;\; :Hash(r||P||m)$$
+$$e \quad\qquad\ :Hash(r||P||m)$$
 
 **Verifying**
 
@@ -122,10 +122,10 @@ Now that we know the basics of the signing/verification process we can move on t
 
 ## Challenges
 
-1. **[EC-Schnorr Nonce Reuse](https://demo.hedgedoc.org/#EC-Schnorr-Nonce-Reuse)**
-2. **[Linearly Related Nonces](https://demo.hedgedoc.org/#Linearly-Related-Nonces)**
-3. **[Multisignature Forgery](https://demo.hedgedoc.org/#Multisignature-Forgery)**
-4. **[Wallet Key Reconstruction](https://demo.hedgedoc.org/#Wallet-Key-Reconstruction)**
+1. **[EC-Schnorr Nonce Reuse](https://vishvesh-rao.github.io/posts/SECURITY-OF-EC-SCHNORR-SIGNATURE-ALGORITHM/#ec-schnorr-nonce-reuse)**
+2. **[Linearly Related Nonces](https://vishvesh-rao.github.io/posts/SECURITY-OF-EC-SCHNORR-SIGNATURE-ALGORITHM/#linearly-related-nonces)**
+3. **[Multisignature Forgery](https://vishvesh-rao.github.io/posts/SECURITY-OF-EC-SCHNORR-SIGNATURE-ALGORITHM/#multisignature-forgery)**
+4. **[Wallet Key Reconstruction](https://vishvesh-rao.github.io/posts/SECURITY-OF-EC-SCHNORR-SIGNATURE-ALGORITHM/#wallet-key-reconstruction)**
 
 ## EC-Schnorr Nonce Reuse
 
@@ -217,7 +217,7 @@ $$k \equiv (s_1 - s_2)*(e_1-e_2)^{-1} \bmod n \tag{4}$$
 All the values in the RHS of (4) are known to us thus we can easily get the Private Key $k$
 
 ### IMPLEMENTATION
-```python=
+```python
 from Crypto.Util.number import long_to_bytes, bytes_to_long, inverse
 import hashlib
 
@@ -402,7 +402,7 @@ So before we actually dive into the challenge lets do a quick brief on multisign
 Following are the steps to generate a two party multisignature: 
 <br>
 
-> **All the terms used are as explained in [this](https://demo.hedgedoc.org/#Primer-on-EC-Schnorr) section**
+> **All the terms used are as explained in [this](https://vishvesh-rao.github.io/posts/SECURITY-OF-EC-SCHNORR-SIGNATURE-ALGORITHM/#primer-on-ec-schnorr) section**
 
 <br>
 
@@ -630,7 +630,7 @@ Since in ECC there is no negetive as all values are in a fine field negetive poi
 
 ### MITIGATION
 
-So to avoid this attack we would need to verify each persons public key with a messaged signed by the private key. But this would require each member of the multi-sig to do this thereby nullifying the scaling and efficiency of schnorr multisig scheme.
+So to avoid this attack we would need to verify each persons public key with a message signed by the private key, But this would require each member of the multi-sig to do this thereby nullifying the scaling and efficiency of schnorr multisig scheme.
 
 To solve this a new scheme was developed  called the **Bellare-Neven**
 #### Bellare-Neven Scheme
