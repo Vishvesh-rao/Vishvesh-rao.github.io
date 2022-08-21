@@ -22,7 +22,7 @@ plugins:
   
 title: Stryd3r                          # the main title
 
-tagline: ~Vishvesh, 20.y.o ~crypto enthusiast ~@team bi0s   # it will display as the sub-title
+tagline: ~Vishvesh, 21.y.o ~Blockchain security ~@team bi0s   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -47,11 +47,11 @@ social:
   email: vishveshsrao@gmail.com            # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - https://www.linkedin.com/in/vishvesh-rao-847368191
     - https://twitter.com/The_Str1d3r      # change to your twitter homepage
     - https://github.com/Vishvesh-rao       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/vishvesh-rao-847368191
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
