@@ -145,7 +145,7 @@ It aims at shifting the risk associated with transferring ether to the user.
 
 Sending ether to another address in Ethereum involves a call to the receiving entity. There are several reasons why this external call could fail. If the receiving address is a contract, it could have a fallback function implemented that simply throws an exception, once it gets called. Another reason for failure is running out of gas. Thus its always better to have the user call a withdraw() function rather than the contract transferring it itself.
 
-```solidity=
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
@@ -252,7 +252,7 @@ Each storage slot in solidity is of 32 bytes and storage occurs in a sequential 
 
 Below is the challenge contract:
 
-```solidity=
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
