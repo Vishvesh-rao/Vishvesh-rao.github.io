@@ -85,7 +85,7 @@ ___
 
 This level as the name describes familiarizes us with the *fallback* function in solidity
 
-```solidity=
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
@@ -154,7 +154,7 @@ The creation bytecode intializes all the variables declared inside the construct
 
 This level highlights a classic flaw in the way constructors were allowed to be declared from solidity version `^0.6.0`. Constructors were basically named after the contract name itself like so:
 
-```solidity=
+```solidity
 contract example {
     function example(){
         ...
