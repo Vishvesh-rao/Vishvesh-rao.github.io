@@ -1,6 +1,6 @@
 ---
 title: How Not To Use Custom Errors
-date:  2022-11-07 12:30:06
+date:  2022-11-06 12:30:06
 author: Vishvesh
 author_url: https://twitter.com/The_Str1d3r
 mathjax: true
