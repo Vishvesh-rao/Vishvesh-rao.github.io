@@ -1,5 +1,5 @@
 ---
-title: # STABLEMAGNET SWAP: ANALYSIS OF A RUGPULL
+title: STABLEMAGNET SWAP: ANALYSIS OF A RUGPULL
 date:  2023-01-10 12:30:06
 author: Vishvesh
 author_url: https://twitter.com/The_Str1d3r
