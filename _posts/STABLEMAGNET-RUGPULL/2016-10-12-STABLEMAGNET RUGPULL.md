@@ -58,7 +58,10 @@ Around $22.2 (currently 27 and increasing) BUSD was rug pulled from StableMagnet
 - BUSD sent to BNC: [Txn's](https://bscscan.com/address/0x2bac04457e5de654cf1600b803e714c2c3fb96d7#tokentxns)
 - Tether on EC: [Txn's](https://etherscan.io/address/0xDF5B180c0734fC448BE30B7FF2c5bFc262bDEF26#tokentxns)
 - Tether to DAI: [Txn's](https://etherscan.io/address/0xe5daac909a3205f99d370bc2b32b1810a4912a07#tokentxns)
+
+
 ## Overview
+
 The protocol orgs managed to rugpull 22.2 million dollars
 
 [This](https://bscscan.com/tx/0xf0ba46c8a20e1e75ad382e42c509bf71393e1b3b90326165c747a5d3cc5d967c) is the tranasction that the intiated the rugpull which included 3 token transfres totaling to 22.2 million dollars worth.
